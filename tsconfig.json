@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "@/types": ["types/index"],
+      "@/config": ["config/config"],
+      "@/utils/*": ["utils/*"],
+      "@/core/*": ["core/*"],
+      "@/providers/*": ["providers/*"],
+      "@/channel/*": ["channel/*"],
+      "@/routes/*": ["routes/*"],
+      "@/jobs/*": ["jobs/*"],
+      "@/memory/*": ["memory/*"],
+      "@/middleware/*": ["middleware/*"]
+    }
+  },
+  "include": ["src/**/*", "tests/**/*", "scripts/**/*", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

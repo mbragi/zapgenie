@@ -1,0 +1,30 @@
+
+node_modules
+dist
+# Root public is no longer used for serving built frontend
+/public
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage
+.vscode
+.idea
+docker-data
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+.cache
+*.tsbuildinfo
+
+.cursor
+# scripts/
+
+*.md
+*.MD
+!README.md
+
+

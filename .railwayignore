@@ -1,0 +1,32 @@
+# Development files
+.env
+.env.local
+.env.*.local
+.git
+.gitignore
+.cursor
+.husky
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+tests/
+coverage/
+.nyc_output/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts (will be generated)
+dist/ 

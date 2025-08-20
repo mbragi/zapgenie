@@ -1,0 +1,6 @@
+# Ignore built/static assets
+public/
+frontend/dist/
+# Node deps
+node_modules/
+frontend/node_modules/

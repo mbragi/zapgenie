@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "npm install && npm --prefix frontend install --no-audit --no-fund && npm run build && npm run build:frontend"
+  },
+  "deploy": {
+    "startCommand": "npm run start",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 300
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "watch": ["frontend", "src", ".env"],
+  "ext": "js,ts,json",
+  "ignore": [
+    "src/logs/*",
+    "src/**/*.{spec,test}.ts",
+    "tests/**/*",
+    "frontend/node_modules",
+    "frontend/dist"
+  ],
+  "exec": "npm run start:with-frontend",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000"
+}
